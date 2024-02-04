@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>CONTACT FORM </title>
+</head>
+<body>
+    <form action="/" method="get">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+
+                    </td>
+                    <td>
+                        <input type="text" name="name"  id="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+
+                    </td>
+                    <td>
+                        <input type="email" name="email"  id="email"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone</label>
+
+                    </td>
+                    <td>
+                        <input type="tel" name="phone"  id="phone" minlength="10" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male"> Male
+                        <input type="radio" name="gender" id="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prof">Profession</label>
+                    </td>
+                    <td>
+                        <select name="prof" id="prof">
+                            <option value="govt">GOVT.OFFICIAL</option>
+                            <option value="private">PRIVATE EMPLOYEE</option>
+                            <option value="self">SELF EMPLOYED</option>
+                            <option value="stud">STUDENT</option>
+                            <option value="others">OTHERS</option>
+                        </select>
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    <label for="msg">Message</label>
+                </td>
+                <td>
+                    <textarea name="msg" id="msg" cols="40" rows="6" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="tnc" id="tnc" required>
+                    <label for="tnc">I accept the Terns and Conditions</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="reset">RESET</button>
+                </td>
+                <td style="text-align: right;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </form>
+    
+</body>
+</html>
